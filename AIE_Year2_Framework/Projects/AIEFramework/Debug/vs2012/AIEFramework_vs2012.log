@@ -1,0 +1,19 @@
+﻿Build started 27/02/2014 2:05:55 PM.
+     1>Project "C:\Perforce\Elizabeth_9215\2014_Cohort\2nd_Year\Students\elizabeth.rowlands\User\AIE_Year2_Framework\Projects\AIEFramework\AIEFramework_vs2012.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Access to the path 'C:\Perforce\Elizabeth_9215\2014_Cohort\2nd_Year\Students\elizabeth.rowlands\User\AIE_Year2_Framework\Lib\vs2012\AIEFramework_d.lib' is denied.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D GLM_SWIZZLE /D GLM_FORCE_RADIANS /D GLEW_STATIC /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\vs2012\\" /Fd"Debug\vs2012\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\Application.cpp ..\..\Source\Utilities.cpp ..\..\Source\Gizmos.cpp
+         Gizmos.cpp
+         Utilities.cpp
+         Application.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Perforce\Elizabeth_9215\2014_Cohort\2nd_Year\Students\elizabeth.rowlands\User\AIE_Year2_Framework\Projects\..\Lib\vs2012\AIEFramework_d.lib" glfw3.lib glew32s.lib SOIL.lib OpenGL32.lib /NOLOGO Debug\vs2012\Application.obj
+         Debug\vs2012\Utilities.obj
+         Debug\vs2012\Gizmos.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Perforce\Elizabeth_9215\2014_Cohort\2nd_Year\Students\elizabeth.rowlands\User\AIE_Year2_Framework\Projects\..\Lib\vs2012\AIEFramework_d.lib'
+     1>Done Building Project "C:\Perforce\Elizabeth_9215\2014_Cohort\2nd_Year\Students\elizabeth.rowlands\User\AIE_Year2_Framework\Projects\AIEFramework\AIEFramework_vs2012.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.56
